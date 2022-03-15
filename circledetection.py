@@ -403,7 +403,7 @@ def main(argv=None):
     #         raise Exception("Must specify input file name using -i or --input option.")
 
     # cfg=EV3_Config(options.inputFileName)
-    cfg=EV3_Config("config_2.cfg")
+    cfg=EV3_Config("config.cfg")
 
     print(cfg)
 
